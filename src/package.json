@@ -1,0 +1,27 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "test": "jest src/app/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwosik1996/cwiczenie1-githubactions-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wwosik1996/cwiczenie1-githubactions-nodejs/issues"
+  },
+  "homepage": "https://github.com/wwosik1996/cwiczenie1-githubactions-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}
